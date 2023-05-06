@@ -7,12 +7,7 @@ pipeline {
     tools {
   maven 'M2_HOME'
 }
-stage('test') {
-            steps {
-            echo  'test'
-                
-            }
-        }
+
 
    
     stages {
